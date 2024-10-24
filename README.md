@@ -6,3 +6,5 @@ Hello Citizens of the World, in a situation where the world is fighting over Toi
 Here, i have now installed GitHub desktop and i have the cool VS Code with me, i added this sentence from VS code, lets see what happens
 
 10/24/2024 - Looking back at this after 4 years, such a kid lol.
+
+10/24/2024 - New Line from GitHub Repositories Extention on VS Code
