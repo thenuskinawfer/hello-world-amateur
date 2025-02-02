@@ -7,3 +7,5 @@ function AlertFunction() {
     document.getElementById("Bulb").src="pic_bulboff.gif";
     document.getElementById("Paragraph1").style.fontSize = "35px";
 }
+
+//Testing Commit using the Repo Cloned through SSH Key
