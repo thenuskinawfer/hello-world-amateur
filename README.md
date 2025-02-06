@@ -8,3 +8,5 @@ Here, i have now installed GitHub desktop and i have the cool VS Code with me, i
 10/24/2024 - Looking back at this after 4 years, such a kid lol.
 
 10/24/2024 - New Line from GitHub Repositories Extention on VS Code
+
+Branch Checkout from CLI - Dev Branch
