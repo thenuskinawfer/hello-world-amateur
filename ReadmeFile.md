@@ -9,6 +9,6 @@ Here, i have now installed GitHub desktop and i have the cool VS Code with me, i
 
 10/24/2024 - New Line from GitHub Repositories Extention on VS Code
 
-Branch Checkout from CLI - Dev Branch
+02/06/2025 - Branch Checkout from CLI - Dev Branch
 
-Commit to only to Development Branch
+02/06/2025 - Commit to only to Development Branch
