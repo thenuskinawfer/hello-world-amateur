@@ -32,3 +32,6 @@ console.log(aretheyequal(1,1))
 
 const {FirstName,LastName} = HumanOne
 console.log(FirstName)
+
+const TemplateLiteral = `Hello this is ${FirstName()}`
+console.log(TemplateLiteral)
