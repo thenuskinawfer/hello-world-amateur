@@ -1,3 +1,4 @@
+//#region
 const greeting = 'Hello';
 
 function CreateNewHuman(HumanAttributes) {
@@ -10,6 +11,7 @@ function CreateNewHuman(HumanAttributes) {
         }
     };
 }
+//#endregion
 
 const HumanOneAttributes = ['Josh', 'Butler', '2025-12-12'];
 const HumanOne = CreateNewHuman(HumanOneAttributes);
@@ -35,3 +37,4 @@ console.log(FirstName)
 
 const TemplateLiteral = `Hello this is ${FirstName()}`
 console.log(TemplateLiteral)
+
