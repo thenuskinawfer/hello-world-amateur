@@ -11,6 +11,24 @@ function CreateNewHuman(HumanAttributes) {
     };
 }
 
-const HumanOneAttributes = ['Nuski', 'Nawfer', '2001-01-01'];
+const HumanOneAttributes = ['Josh', 'Butler', '2025-12-12'];
 const HumanOne = CreateNewHuman(HumanOneAttributes);
 console.log(HumanOne.CreateGreeting());
+
+//Arrow Funtions
+
+var Square = (Square,Rectangle) => Square * Square * Rectangle;
+console.log(Square(2,2))
+
+var aretheyequal = (A,B) => {
+    if(A==B) {
+        return "Equal"
+    } else {
+        return "Not Equal"
+    }
+}
+console.log(aretheyequal(1,2))
+console.log(aretheyequal(1,1))
+
+const {FirstName,LastName} = HumanOne
+console.log(FirstName)
