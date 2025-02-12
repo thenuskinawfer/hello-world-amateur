@@ -1,5 +1,0 @@
-C:\Users\nauzern\source\repos\hello-world-amateur\.NETBeginner\NETSyntaxTraining\obj\Debug\net9.0\NETSyntaxTraining.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\nauzern\source\repos\hello-world-amateur\.NETBeginner\NETSyntaxTraining\obj\Debug\net9.0\NETSyntaxTraining.AssemblyInfoInputs.cache
-C:\Users\nauzern\source\repos\hello-world-amateur\.NETBeginner\NETSyntaxTraining\obj\Debug\net9.0\NETSyntaxTraining.AssemblyInfo.cs
-C:\Users\nauzern\source\repos\hello-world-amateur\.NETBeginner\NETSyntaxTraining\obj\Debug\net9.0\NETSyntaxTraining.csproj.CoreCompileInputs.cache
-C:\Users\nauzern\source\repos\hello-world-amateur\.NETBeginner\NETSyntaxTraining\obj\Debug\net9.0\NETSyntaxTraining.sourcelink.json
