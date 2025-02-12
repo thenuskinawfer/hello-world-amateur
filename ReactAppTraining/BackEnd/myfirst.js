@@ -2,7 +2,7 @@ const http = require('http');
 //const url = require('url')
 const DisplayDate = require('./myfirstmodule')
 //const readfile = require('fs')
-const databaseConnector = require('./UtilityComponents/mssqlconnector')
+const databaseConnector = require('./ProjectUtilityComponents/MSSQLConnector')
 
 http.createServer(function (req,res) {
     res.writeHead(200,"Status Message Successfull"); //This is the request header of the HTTP Request, you can view this in Inspect

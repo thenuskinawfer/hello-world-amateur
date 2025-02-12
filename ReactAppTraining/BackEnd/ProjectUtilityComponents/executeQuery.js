@@ -1,5 +1,5 @@
 const mssql = require ('mssql')
-const mssqlconnector = require('../ProjectUtilityComponents/MSSQLConnector')
+const mssqlconnector = require('./MSSQLConnector')
 
 async function executeSelectQuery() {
     try {}
