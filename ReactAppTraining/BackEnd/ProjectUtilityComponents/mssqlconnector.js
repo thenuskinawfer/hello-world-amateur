@@ -1,5 +1,5 @@
 const mssql = require ('mssql')
-const config = require ('./appsettings.json')
+const config = require('../ProjectConfigurationFiles/appsettings.json')
 
 let connectionMessage = mssql.connect(config.databaseConnectionString)
 
