@@ -6,6 +6,7 @@ exports.executeQuery = async function executeQuery(query) {
         let connection = mssqlconnector.connectionMessage
         let newRequest = (await connection).request()
         let newQuery = newRequest.query(query)
+        console.log((await newQuery).output)
         console.log((await newQuery).recordset)
         ;(await connection).close()
     } catch (err) {
@@ -13,4 +14,4 @@ exports.executeQuery = async function executeQuery(query) {
     }
 }
 
-exports.executeQuery('SELECT * FROM StudentTable')
+exports.executeQuery(`INSERT INTO StudentTable VALUES (19933,'Maya Angelou')`)
