@@ -1,15 +1,18 @@
-const mssql = require ('mssql')
-const config = require ('../ProjectConfigurationFiles/appsettings.json')
+const mssql = require('mssql');
+const configurationStrings = require('../ProjectConfigurationFiles/appsettings.json');
+const databaseConnectionString = configurationStrings.databaseConnectionString
+let connectionPool;
 
-exports.connectionMessage = mssql.connect(config.databaseConnectionString)
-
-async function connectToDatabase() {
-    try {
-        const connectionStatus = await exports.connectionMessage
-        console.log(`Connected to Database Server ${connectionStatus}`)
+exports.connectToDatabase = async function connecttodatabase() {
+    if(connectionPool) {
+        console.log(`Reusing Existing Connection Pool`);
+        return connectionPool;
+    } try {
+        connectionPool = await mssql.connect(databaseConnectionString);
+        console.log(`Connected`)
+        return connectionPool;
     } catch(err) {
-        console.error(`Unable to connect to Database : ${err}`)
+        console.log(`Error : ${err}`);
+        //throw err;
     }
 }
-
-connectToDatabase()
